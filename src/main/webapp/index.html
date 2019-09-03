@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Phone book</title>
+</head>
+<body>
+<form action="/save" method="post">
+    <table width="300" border="0">
+        <tr>
+            <td width="144">Name</td>
+            <td width="140">Phone number</td>
+        </tr>
+        <tr>
+            <td><input name="ownername" type="text"/></td>
+            <td><input name="phonenumber" type="text"/></td>
+        </tr>
+        <tr>
+            <td><input name="save" type="submit" value="Save"/></td>
+            <td><a href="/showall">Show all</a></td>
+        </tr>
+    </table>
+</form>
+<form action="/showall" method="post">
+    <table width="298" border="0">
+        <tr>
+            <td width="146"><input name="show" type="submit" value="Show all"/></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
